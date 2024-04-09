@@ -14,5 +14,16 @@ fn main() {
     // initalize multiple variables at once, let statement can destructure the data and initialize in corrosponding pattern on right hand side.
     let (apple, banana) = (8, 5);
 
+    // Scope
+
+    let mut x = 5;  // x is mutable
+    let x = x;      // x is now immutable, compiler will optimise this away, so actually nothing happens in assembly code
+    {
+        // X is shadowed with new value 99
+        let x = 99;
+        println!("{}", x); // Prints "99"
+
+    }
+    println!("{}", x) // Prints "5" because x = 99 was dropped immediatly after scope ended
 
 }
