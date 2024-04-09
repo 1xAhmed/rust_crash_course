@@ -1,5 +1,6 @@
 fn main() {
     let x = do_stuff(2.0, 12.5);
+    println!("{}", x);
 }
 
 
