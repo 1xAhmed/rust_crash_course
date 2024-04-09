@@ -1,12 +1,18 @@
 fn main() {
-    // without type annotation
+    // initialize variable without type annotation. 
+    // Variables are immutable by default in rust, unless explicitly marked mutable
     let bunnies = 2;
+    // bunnies = 5;    // Error!
 
-    // with type annotation
-    let sunny: i32 = 4;
+    // initialize variable with type annotation.
+    // Lets make thia mutable with keyword `mut`
+    let mut sunny: i32 = 4;
 
-    // initalize multiple variables at once
+    // Now sunny can be changed
+    sunny = 5;
+
+    // initalize multiple variables at once, let statement can destructure the data and initialize in corrosponding pattern on right hand side.
     let (apple, banana) = (8, 5);
 
-    
+
 }
