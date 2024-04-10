@@ -32,4 +32,49 @@ fn main() {
     };
 
     println!("{}", num);
+
+
+    loop {
+        break;
+    }
+
+    'bob: loop {
+        loop {
+            loop {
+                break 'bob;
+            }
+        }
+    }
+
+    // 'alice: loop {
+    //     loop {
+    //         loop {
+    //             continue 'alice;
+    //         }
+    //     }
+    // }
+
+
+    // while have all the behavious of unconditional loop, also they terminate the loob when their condition evaluates to false, that is the exact boolean value of false, remember rust refuses to coearce expressions to booleans
+    // while dizzy() {
+    //     // do stuff
+    // }
+
+    for num1 in [24,5,3,53,0,53,4,0].iter() {
+        println!("{}", num1);
+    }
+
+
+    // For loop can take a pattern to destructure the item it receives, and bind the insight parts to the variables just like the `let` statement, just in this case, the variables are local to the body of the for loop
+    let array = [(12,5), (13,5)];
+
+    for (x,y) in array.iter() {
+        println!("{} {}", x,y);
+    }
+
+
+    // Ranges with for loop, the syntax for range is two dots `..`, seperating the start and end points. The start is inclusive and end is exclusive, so this will count to 9, and if you use `..=` then end will be inclusive as well.
+    for num in 0..10 {
+        println!("{:?}", num);
+    }
 }
