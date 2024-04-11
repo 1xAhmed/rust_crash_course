@@ -34,6 +34,22 @@ fn main() {
     // s.insert_str(0, "Hi, ");
     // *s = String::from("Replacement");
 
+    // Lets go over what references look like
+    // If you have a variable `x` then this
+    // `&x` this creates a immutable reference to that variables value then this
+    // `&mut x` creates a mutable reference to that variables value.
+
+    // Similarly with types
+    // If this is the type `i32` of your value then this
+    // `&i32` this is the type of your immutable reference and this
+    // `&mut i32` is the type of your mutable reference to that value.
+
+    // Going the other way around
+    // `x: &mut i32` if your variable is a mutable reference to a value then 
+    // `*x // a mutable i32` de-referencing `x` gives you mutable access to the value and if
+    // `x: &i32` is an immutable reference to a value, then
+    // `*x // an immutable i32` gives you immutable access to the value
+
 
     // since references are implemented via pointers
 
@@ -44,7 +60,7 @@ fn main() {
     // It starts to make it pretty obvious why it's not safe to have multiple mutable references to the same variable at the same time without some type of locking but if all the references are immutable then there's no problem so you can have lots of immutable references spread across multiple threats.
     
     // All these rules. I've been talking about are enforced by the compiler and by enforced I mean compiler errors lots of compiler errors
-    
+
 
 
 }
