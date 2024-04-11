@@ -7,3 +7,5 @@ module_system/target/
 scaler_types/target/
 compound_types/target/
 exercise_c_simple_types/target/
+control_flow/target/
+strings/target/
