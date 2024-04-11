@@ -13,3 +13,7 @@ exercise_d_control_flow_strings/target/
 ownership/target/
 references_borrowing/target/
 exercise_e_ownership_references/target/
+structs/target/
+traits/target/
+exercise_structs_traits/target/
+collections/target/

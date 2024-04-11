@@ -1,7 +1,7 @@
 fn main() {
     
     // Traits are similar to interfaces in other languages
-    // ust takes the commposition over inheiritance approach
+    // rust takes the commposition over inheiritance approach
 
     struct RedFox {
         enemy: bool,
