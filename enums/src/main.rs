@@ -43,7 +43,7 @@ fn main() {
 
     // It can be only one of those but one at a time.
 
-    // Evem better, You can implement functions and methods for an enum. 
+    // Even better, You can implement functions and methods for an enum. 
     impl DispenserItem {
         fn display(&self) { }
     }
