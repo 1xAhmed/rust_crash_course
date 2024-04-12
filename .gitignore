@@ -15,7 +15,8 @@ references_borrowing/target/
 exercise_e_ownership_references/target/
 structs/target/
 traits/target/
-exercise_structs_traits/target/
+exercise_f_structs_traits/target/
 collections/target/
 enums/target/
 exercise_g_collections_enums/target/
+exercise_g_collections_enums
