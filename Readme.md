@@ -35,7 +35,7 @@ cargo 1.54.0 (5ae8d74b3 2021-06-22)
 
 ## Prepare Your Development Environment
 
-Please do the following (see the [How To Learn Rust](https://github.com/CleanCut/ultimate_rust_crash_course/blob/master/HowToLearnRust.md)
+Please do the following (see the [How To Learn Rust](https://github.com/1xAhmed/rust_crash_course/blob/main/HowToLearnRust.md)
 page for details on all of these)
 - [ ] Choose an IDE (or Editor) and configure it with Rust support and customize it to your liking
   - **VS Code users**: Please use the [`rust-analyzer`] extension. **_If you have the `rust` extension installed, please uninstall it!_**
